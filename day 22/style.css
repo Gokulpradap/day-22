@@ -1,0 +1,31 @@
+body{
+    background-color: whitesmoke;
+}
+.container{
+    background-color: white;
+    width: 15rem;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin:20px;      
+}
+.flag{
+    width: 100%;
+}
+.info{
+    padding: 1rem;
+}
+.info > h2{
+    margin-top: 0;
+}
+.info span {
+    font-weight: bold;
+}
+button{
+    background-color: gray;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
